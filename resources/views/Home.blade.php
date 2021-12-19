@@ -10,7 +10,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <title>Permintaan Barang</title>
 </head>
 <body class="hold-transition sidebar-mini">
-<div class="wrapper">
+<div id="app" class="wrapper">
 
   <!-- Navbar -->
   @include('template.navbar')
@@ -20,13 +20,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
   @include('template.sidebar-left')
 
   <!-- Content Wrapper. Contains page content -->
-  <div id="app" class="content-wrapper mt-3">
+  <div class="content-wrapper mt-3">
     <!-- Main content -->
     <div class="content">
-      <div class="container-fluid">
-        <example-component></example-component>
-
-      </div><!-- /.container-fluid -->
+        <router-view></router-view>
     </div>
     <!-- /.content -->
   </div>
