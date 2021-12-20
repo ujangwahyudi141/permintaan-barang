@@ -23,3 +23,5 @@ Aplikasi ini belum sepenuhnya selesai masih banyak fitur yang perlu di selesaika
 - Login sebagai admin warehouse memasukan nik(3215050304980002) dan password(12345)
 - Login sebagai pemohon material nik(3215052406980001) dan password(12345)
 
+##DB Name
+permintaan-barang
